@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """ Script that transforme README.md en page HTML """
 
 import re

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+""" Script that transforme README.md en page HTML """
 
 import re
 import hashlib
@@ -6,6 +7,7 @@ import sys
 import os
 
 def main():
+    """ Main """
     if len(sys.argv) < 3:
         sys.stderr.write("Usage: ./markdown2html.py README.md README.html\n")
         exit(1)
